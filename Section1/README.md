@@ -10,4 +10,4 @@ python EasyVisual.py
 ```
 をすると、localhostでグラフを表示
 
-![](/figs/fig1_1.png)
+![](./figs/fig1_1.png)
