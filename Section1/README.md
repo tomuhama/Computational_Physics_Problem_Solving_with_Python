@@ -26,3 +26,13 @@ python EasyVisual.py
 ベクトル系はすべてvpythonのvectorクラスで設定するみたい。(i,j,k)->vector(i,j,k)。運動させる際は、物体のposを運動方程式の解に基づいて時間変化させることが必要。
 
 ![](./figs/fig1_3.png)
+
+## motion_of_balls.py
+
+動画の描画でHarmonic Oscillatorの例を実行しようとしたが上手く動かなかったので簡単な一次元的なボールの運動を描画。
+canvasオブジェクトを使えば保存ができるが、gifの保存はできないので1frameずつ保存してconvertで結合してる。
+```bash
+convert -delay 01 -loop 0 ./motion_dir/motion_of_ball*.png animation_mob.gif
+```
+
+![](./figs/animation_mob.gif)
